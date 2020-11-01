@@ -1,6 +1,4 @@
-# frontend-example-docker
-
-This project is created to help learn docker configurations for frontend projects.
+# frontend-docker
 
 # Prerequisites
 
@@ -16,11 +14,7 @@ Check your install with `node -v && npm -v`
 
 Install all packages with `npm install`
 
-# Starting in production mode
-
-Notice, that all the information are not needed in all the exercises.
-
-## Exercise 1.10 -> to run the project
+## 5.1 Build and start
 
 To build and serve in production mode: `npm start`
 This builds the project to `dist` folder and serves it in port 5000.
@@ -33,7 +27,8 @@ To use a npm package called serve to serve the project in port 5000:
 
 Test that the project is running by going to <http://localhost:5000>
 
-## Exercise 1.12 -> to connect to backend
+## 5.2 Connect to backend
 
-By default the expected path to backend is /api. This is where the application will send requests. 
+By default the expected path to backend is /api
+This is where the application will send requests
 To manually configure api path run with `API_URL` environment value set, for example `API_URL=http://localhost:8888 npm start` or `API_URL=<url> npm build`

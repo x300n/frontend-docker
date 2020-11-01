@@ -8,17 +8,15 @@ import ExerciseDBConnection from './ExerciseDBConnection'
 
 const ExerciseList = () => (
     <div style={{ paddingTop: '1em' }}>
-        <h3>Part 1</h3>
-        <ExerciseAmIRunning exerciseNumber="1.10" />
+        <ExerciseAmIRunning exerciseNumber="5.1" />
         <hr />
-        <ExerciseBackendConnection exerciseNumber="1.12" />
+        <ExerciseBackendConnection exerciseNumber="5.2" />
         <hr />
-        <h3>Part 2</h3>
-        <ExerciseRedisSetup exerciseNumber="2.5" />
+        <ExerciseRedisSetup exerciseNumber="5.3" />
         <hr />
-        <ExerciseDBConnection exerciseNumber="2.6" />
+        <ExerciseDBConnection exerciseNumber="5.4" />
         <hr />
-        <ExerciseNginxSetup exerciseNumber="2.8" />
+        <ExerciseNginxSetup exerciseNumber="5.5" />
         <hr />
     </div>
 )

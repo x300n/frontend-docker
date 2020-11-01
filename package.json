@@ -1,7 +1,7 @@
 {
-  "name": "frontend-example-docker",
+  "name": "frontend-docker",
   "version": "1.0.0",
-  "repository": "https://github.com/docker-hy/frontend-example-docker",
+  "repository": "https://github.com/x300n/frontend-docker",
   "description": "Example frontend project for docker course",
   "main": "index.js",
   "scripts": {
