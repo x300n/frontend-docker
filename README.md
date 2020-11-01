@@ -4,11 +4,17 @@
 
 Install [node](https://nodejs.org/en/download/). 
 
-Example node install instructions for LTS node 10.x:
+Example node install instructions for LTS node 10.x on Ubuntu:
 ```
 curl -sL https://deb.nodesource.com/setup_10.x | bash
 sudo apt install -y nodejs
 ```
+
+Example node install instructions for LTS node 10.x on Alpine:
+```
+apk add --update nodejs npm
+```
+
 
 Check your install with `node -v && npm -v`
 
